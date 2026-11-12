@@ -50,7 +50,7 @@ dir = "{{config_root}}/web"
 run = "npm run dev"
 
 [tasks."dev:mobile"]
-description = "Sobe o Expo (escolha Android, iOS ou navegador no terminal)"
+description = "Sobe o Expo pela rede local (escolha Android, iOS ou navegador no terminal)"
 dir = "{{config_root}}/mobile"
 run = "npx expo start"
 

@@ -76,6 +76,14 @@ Aplicativo no Expo, onde você escolhe Android, iOS ou navegador:
 mise run dev:mobile
 ```
 
+Por padrão, o Expo usa a rede LAN. Se o celular não conseguir se conectar, tente o túnel:
+
+```bash
+mise exec --cd mobile -- npx expo start --tunnel
+```
+
+O túnel pode solicitar login em uma conta Expo.
+
 ### Outras tarefas
 
 Os nomes seguem o padrão `mise run <ação>:<módulo>`. Sem o módulo, a tarefa roda em todos os que têm aquela ação. Para ver a lista completa, use `mise tasks`.
