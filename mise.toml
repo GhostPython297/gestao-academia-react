@@ -52,7 +52,7 @@ run = "npm run dev"
 [tasks."dev:mobile"]
 description = "Sobe o Expo (escolha Android, iOS ou navegador no terminal)"
 dir = "{{config_root}}/mobile"
-run = "npm start"
+run = "npx expo start"
 
 # --- lint (estilo e tipos) -------------------------------------------
 
