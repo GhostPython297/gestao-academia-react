@@ -52,7 +52,7 @@ mise install
 mise run install
 ```
 
-`mise install` instala o Node.js e o Java nas versões do projeto. `mise run install` instala as dependências da raiz, do `mobile/` e do `web/`.
+`mise install` instala o Node.js e o Java nas versões do projeto. `mise run install` instala as dependências da raiz, do `mobile/` e do `web/`, e baixa as dependências Maven do backend.
 
 ### Rodar os módulos
 

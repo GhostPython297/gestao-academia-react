@@ -52,7 +52,7 @@ mise install
 mise run install
 ```
 
-`mise install` instala a versão do Node.js declarada no `mise.toml`. `mise run install` instala as dependências da raiz, do app e do web.
+`mise install` instala a versão do Node.js declarada no `mise.toml`. `mise run install` instala as dependências da raiz, do app e do web, e baixa as dependências Maven do backend.
 
 Depois, inicie o Expo, também na raiz do repositório:
 
